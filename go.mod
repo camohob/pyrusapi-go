@@ -1,4 +1,4 @@
-module github.com/L11R/pyrusapi-go
+module github.com/camohob/pyrusapi-go
 
 go 1.16
 
