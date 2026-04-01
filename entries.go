@@ -304,6 +304,7 @@ type Subscriber struct {
 type TaskComment struct {
 	ID                     int        `json:"id"`
 	Text                   string     `json:"text"`
+	FormattedText          string     `json:"formatted_text"`
 	Mentions               []int      `json:"mentions"`
 	CreateDate             time.Time  `json:"create_date"`
 	Author                 *Person    `json:"author"`
